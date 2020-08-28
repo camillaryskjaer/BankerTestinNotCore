@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace BankerAccount2
 {
+    /// <summary>
+    /// A simple container to hold infomation about the account.
+    /// </summary>
     public class Account
     {
 
@@ -21,10 +24,6 @@ namespace BankerAccount2
             Balcence = balcence;
             Pin = pin;
         }
-
-        public bool ValidateUser(int pin)
-        {
-            return (pin == this.Pin);
-        }
+      
     }
 }
