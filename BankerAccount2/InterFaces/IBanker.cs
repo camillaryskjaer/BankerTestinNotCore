@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+Hvad er en banker?? Hvilket formål er der med dette interface? Er det hævemaskine interface?
 namespace BankerAccount2.InterFaces
 {
    public interface IBanker
